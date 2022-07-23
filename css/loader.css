@@ -48,9 +48,9 @@
 
 @keyframes reveal {
   from {
-    opacity: 100%;
+    visibility: visible;
   }
   to {
-    opacity: 0%;
+    visibility: hidden;
   }
 }
