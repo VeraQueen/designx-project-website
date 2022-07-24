@@ -47,10 +47,12 @@
 }
 
 @keyframes reveal {
-  from {
+  0% {
+    opacity: 100%;
     visibility: visible;
   }
-  to {
+  100% {
+    opacity: 0%;
     visibility: hidden;
   }
 }
